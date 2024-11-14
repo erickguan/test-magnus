@@ -1,0 +1,12 @@
+
+[package]
+name = "magnus-test"
+publish = false
+version = "0.1.0"
+
+edition = "2021"
+license = "Apache-2.0"
+rust-version = "1.75"
+
+[dependencies]
+magnus = { version = "0.7.1", features = ["bytes", "embed"] }
